@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    background: black;
+
+}
+
+.container {
+    display: flex;
+    width: 250x;
+    height: 310px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.display {
+    align-self: center;
+    width: 200px;
+    height:50px;
+    color: rgb(255, 255, 255);
+    font-family: Cascadia Code;
+    font-size: 40px;
+    background-color: rgb(32,32,32);
+    margin-bottom: 20px;
+    border: 0;
+    text-align: right;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.btn {
+    background-color: rgb(79, 79, 79);
+    height:50px;
+    width:50px;
+    color: white;
+    font-size: 24px;
+    font-family: Cascadia Code;
+    border-radius: 50%;
+    border: 0;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(146, 146, 146);
+}
+.operator {
+    background-color: rgb(255, 145, 0);
+}
+.operator:hover {
+    background-color: rgb(255, 202, 104);
+}
+
